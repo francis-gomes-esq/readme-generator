@@ -71,7 +71,15 @@ You can interact with the README Generator App [here]()
 
 ## Roadmap
 
-N/A
+1. **Enhanced Template Customisation:** Allow users to customise the generated README template with additional sections or personalised formatting options.
+
+2. **Integration with Version Control:** Implement features to automatically update and commit the generated README file to the project's version control system (e.g., Git), streamlining project documentation management.
+
+3. **Template Presets and Themes:** Introduce pre-defined README templates or themes tailored for specific project types (e.g., Node.js package, Python library), offering users a selection of templates optimised for their project needs.
+
+4. **Advanced Configuration Options:** Provide advanced configuration settings to control the behaviour of the README generation process, such as choosing different licence types, specifying testing frameworks, or including badges for project status and metrics.
+
+5. **Interactive Preview Mode:** Introduce an interactive preview mode where users can see a live preview of their README as they input project details, enabling real-time feedback and adjustments before finalising the generation process.
 
 ## Contributing
 
