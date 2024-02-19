@@ -18,6 +18,7 @@ function init() {
 				name: 'title',
 				message: 'What is the title of your project?',
 			},
+
 			{
 				type: 'input',
 				name: 'description',
@@ -35,6 +36,7 @@ function init() {
 				name: 'usage',
 				message: 'Provide instructions and examples for use:',
 			},
+
 			{
 				type: 'list',
 				name: 'license',
@@ -48,6 +50,7 @@ function init() {
 					'The Unlicense',
 				],
 			},
+
 			{
 				type: 'input',
 				name: 'contributing',
@@ -59,6 +62,7 @@ function init() {
 				name: 'tests',
 				message: 'Provide test instructions:',
 			},
+
 			{
 				type: 'input',
 				name: 'email',
@@ -71,6 +75,8 @@ function init() {
 				message: 'What is your GitHub username?',
 			},
 		])
+
+		// Logging 'answers' properties
 		.then(answers => {
 			console.log(answers);
 			console.log(answers.title);
@@ -84,9 +90,11 @@ function init() {
 			console.log(answers.github);
 			console.log(answers.questions);
 
+			// Generating markdown template and logging it
 			const template = generateMarkdown(answers);
 			console.log(template, 'template');
 
+			// Writing the template to 'utils/readme.md' and logging errors
 			fs.writeFile('utils/readme.md', template, err => {
 				console.log(err);
 			});
