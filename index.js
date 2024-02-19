@@ -1,5 +1,4 @@
 const fs = require('fs');
-const path = require('path');
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
 
@@ -88,15 +87,14 @@ function init() {
 			console.log(answers.tests);
 			console.log(answers.email);
 			console.log(answers.github);
-			console.log(answers.questions);
 
 			// Generating markdown template and logging it
 			const template = generateMarkdown(answers);
 			console.log(template, 'template');
 
 			// Writing the template to 'utils/readme.md' and logging errors
-			fs.writeFile('utils/readme.md', template, err => {
-				console.log(err);
+			fs.writeFile('utils/readme.md', template, error => {
+				error ? console.error(error) : console.log('success');
 			});
 		});
 }
