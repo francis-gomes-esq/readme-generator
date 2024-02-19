@@ -59,6 +59,17 @@ function init() {
 				name: 'tests',
 				message: 'Provide test instructions:',
 			},
+			{
+				type: 'input',
+				name: 'email',
+				message: 'What is your email address?',
+			},
+
+			{
+				type: 'input',
+				name: 'github',
+				message: 'What is your GitHub username?',
+			},
 		])
 		.then(answers => {
 			console.log(answers);
