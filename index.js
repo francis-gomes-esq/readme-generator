@@ -48,6 +48,17 @@ function init() {
 					'The Unlicense',
 				],
 			},
+			{
+				type: 'input',
+				name: 'contributing',
+				message: 'Provide contribution guidelines:',
+			},
+
+			{
+				type: 'input',
+				name: 'tests',
+				message: 'Provide test instructions:',
+			},
 		])
 		.then(answers => {
 			console.log(answers);
