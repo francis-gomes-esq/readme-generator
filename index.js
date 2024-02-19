@@ -76,6 +76,13 @@ function init() {
 			console.log(answers.title);
 			console.log(answers.description);
 			console.log(answers.installation);
+			console.log(answers.usage);
+			console.log(answers.license);
+			console.log(answers.contributing);
+			console.log(answers.tests);
+			console.log(answers.email);
+			console.log(answers.github);
+			console.log(answers.questions);
 
 			const template = generateMarkdown(answers);
 			console.log(template, 'template');
