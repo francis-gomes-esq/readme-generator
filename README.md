@@ -6,7 +6,17 @@ This project simplifies README.md creation for GitHub projects, facilitating col
 
 ## Features
 
--
+-   Inquirer Package Integration: Using Inquirer ensures a friendly command-line interface, improving user interaction.
+
+-   Effortless README Generation: Inputting project details through CLI simplifies documentation, boosting developer efficiency.
+
+-   Essential Sections: Including vital sections ensures comprehensive README coverage, aiding project communication.
+
+-   Collaboration Facilitation: Streamlining setup enhances collaboration, improving development efficiency.
+
+-   CLI Interface: Providing a command-line interface simplifies README creation for CLI users.
+
+-   Input Prompting: Prompting for project details ensures informative READMEs, enhancing documentation quality.
 
 ## Table of Contents
 
