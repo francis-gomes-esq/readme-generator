@@ -60,13 +60,17 @@ You can interact with the README Generator App [here]()
 
 ### Animated Gifs
 
--   ![readme generator](./example.gif)
--   ![readme generator](./example.gif)
+-   ![readme generator](./assets/images/readme-gen.gif)
+-   ![readme generator](./assets/images/readme-gen-walkthrough.gif)
 
 ### Screenshots
 
--   ![readme generator](./example.png)
--   ![readme generator](./example.png)
+-   ![readme generator](./assets/images/readme-gen-1.png)
+-   ![readme generator](./assets/images/readme-gen-2.png)
+-   ![readme generator](./assets/images/readme-gen-01.png)
+-   ![readme generator](./assets/images/readme-gen-02.png)
+-   ![readme generator](./assets/images/readme-gen-03.png)
+-   ![readme generator](./assets/images/readme-gen-04.png)
 
 ## Credits
 
