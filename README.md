@@ -53,7 +53,7 @@ This project simplifies README.md creation for GitHub projects, facilitating col
 
 ## License
 
-README Generator is licenced under the [MIT License](https://francis-gomes-esq.github.io/readme-generator/). For details, refer to the repo.
+README Generator is licenced under the [MIT License](https://github.com/francis-gomes-esq/readme-generator/tree/main?tab=MIT-1-ov-file). For details, refer to the repo.
 
 ## List of third-party assets.
 
