@@ -1,4 +1,4 @@
-# readme-generator
+# README Generator
 
 ## Description
 
@@ -74,6 +74,6 @@ Contributors are welcome to fork repo, enhance code, and commit changes. Create 
 
 ## Questions
 
-Contact me here for any questions [@francis-gomes-esq](https://github.com/francis-gomes-esq) or email me figomesokoye@protonmail.com
+Contact me here for any questions [@francis-gomes-esq](https://github.com/francis-gomes-esq) or email me [figomesokoye@protonmail.com](mailto:figomesokoye@protonmail.com)
 
 ---
