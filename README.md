@@ -6,6 +6,9 @@ This project simplifies README.md creation for GitHub projects, facilitating col
 
 ![readme generator](./assets/images/readme-gen.gif)
 
+[readme-gen.webm](https://github.com/francis-gomes-esq/readme-generator/assets/152029704/3da860eb-869e-4046-92cb-504eb381d238)
+
+
 ## Features
 
 -   Inquirer Package Integration: Using Inquirer ensures a friendly command-line interface, improving user interaction.
