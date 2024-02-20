@@ -4,8 +4,6 @@
 
 This project simplifies README.md creation for GitHub projects, facilitating collaboration and productivity. By leveraging the Inquirer package, users can input project details, generating comprehensive READMEs effortlessly. The generated README includes crucial sections such as title, description, installation, usage, license, contributing guidelines, tests, and contact information, streamlining project setup and documentation.
 
-![readme generator](./assets/images/readme-gen.gif)
-
 ## Features
 
 -   Inquirer Package Integration: Using Inquirer ensures a friendly command-line interface, improving user interaction.
